@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ll_nav_homepage"
+            android:icon="@mipmap/ic_nav_homepage"
+            android:title="项目主页"/>
+        <item
+            android:id="@+id/ll_nav_scan_download"
+            android:icon="@mipmap/ic_nav_scan"
+            android:title="扫码下载"/>
+        <item
+            android:id="@+id/ll_nav_deedback"
+            android:icon="@mipmap/ic_nav_deedback"
+            android:title="问题反馈"/>
+        <item
+            android:id="@+id/ll_nav_about"
+            android:icon="@mipmap/ic_nav_about"
+            android:title="关于云阅"/>
+    </group>
+
+    <item android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/ll_nav_login"
+                android:icon="@mipmap/ic_nav_login"
+                android:title="登录GitHub账号"/>
+            <item
+                android:id="@+id/ll_nav_exit"
+                android:icon="@mipmap/ic_nav_exit"
+                android:title="退出应用"/>
+        </menu>
+    </item>
+</menu>
